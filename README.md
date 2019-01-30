@@ -411,13 +411,6 @@ as authorized redirect URI.
 
 
 
-
-
-
-
-
-
-
 ### Step 14.2: Set up and enable a virtual host
 
 - Add the following line in `sudo nano /etc/apache2/mods-enabled/wsgi.conf` 
@@ -446,18 +439,12 @@ Paste in the following:
 	  CustomLog ${APACHE_LOG_DIR}/access.log combined
   </VirtualHost>
   ```
+  
+  
   If you need help finding your servers hostname use the following links and paste the IP
 address. Save and quit nano:
 - https://whatismyipaddress.com/ip-hostname
 - http://www.nmonitoring.com/ip-to-domain-name.html
-
-
-
-
-
-
-
-
 
 ### Step 14.5: Disable the default Apache site
 
