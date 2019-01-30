@@ -421,6 +421,7 @@ as authorized redirect URI.
 -following lines to configure the virtual host:
 Paste in the following:
   ```
+  
   <VirtualHost *:80>
 	  ServerName 13.59.39.163
     ServerAlias ec2-13-59-39-163.us-west-2.compute.amazonaws.com
@@ -438,6 +439,7 @@ Paste in the following:
 	  LogLevel warn
 	  CustomLog ${APACHE_LOG_DIR}/access.log combined
   </VirtualHost>
+  
   ```
   
   
